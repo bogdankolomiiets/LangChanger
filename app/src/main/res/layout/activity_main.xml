@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/language_uk_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="231dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_margin="4dp"
+        android:text="@string/ua" />
+
+    <Button
+        android:id="@+id/language_ru_btn"
+        android:text="@string/ru"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp" />
+
+    <Button
+        android:id="@+id/new_activity"
+        android:text="@string/open_new_activity"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/language_ru_btn"
+        android:layout_margin="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-thin"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

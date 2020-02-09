@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello">Hello World!</string>
+    <string name="ua" translatable="false">UA</string>
+    <string name="ru" translatable="false">RU</string>
+    <string name="open_new_activity">Open new Activity</string>
+    <string name="title_activity_second" translatable="false">SecondActivity</string>
+    <string name="language">Language</string>
+</resources>
